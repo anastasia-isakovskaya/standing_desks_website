@@ -21,3 +21,6 @@ A prototype website for Standing Desks built with HTML, CSS, and JavaScript and 
 - Managing cart data using Local Storage  
 - Debugging JavaScript errors with browser DevTools  
 - Designing for accessibility and responsive layouts  
+
+## Live Demo
+[View on GitHub Pages](https://anastasia-isakovskaya.github.io/standing_desks_website/)
