@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact us</title>
+  <link rel="icon" href="images/logo.png"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="logo-img"/>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="rising-desks.html">Rising Desks</a>
+            <ul class="dropdown-content">
+              <li><a href="rising-desks.html#laptop-desks">Laptop Desks</a></li>
+              <li><a href="rising-desks.html#floor-standing">Floor Standing</a></li>
+            </ul>
+          </li>
+          <li><a href="health-benefits.html">Health Benefits</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="basket.html">Basket <span id="cart-count" class="cart-badge">0</span> </a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" placeholder="Search products..." id="search-input"/>
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h1>Contact Us</h1>
+      <form action="mailto:AnastasiaI@stcmalta.edu.mt" method="post" enctype="text/plain" class="contact-form">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="First Name" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="Last Name" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="Email" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="5" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="footer-logo-img"/>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com/YourPage" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/YourHandle" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/in/YourProfile" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <p class="footer-copy">© Standing Desks. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>

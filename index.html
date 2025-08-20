@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Standing Desks</title>
+  <link rel="icon" href="images/logo.png"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="logo-img"/>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="rising-desks.html">Rising Desks</a>
+            <ul class="dropdown-content">
+              <li><a href="rising-desks.html#laptop-desks">Laptop Desks</a></li>
+              <li><a href="rising-desks.html#floor-standing">Floor Standing</a></li>
+            </ul>
+          </li>
+          <li><a href="health-benefits.html">Health Benefits</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="basket.html">Basket <span id="cart-count" class="cart-badge">0</span> </a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" placeholder="Search products..." id="search-input"/>
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="slides">
+      <h2 class="visually-hidden">Desk Slides</h2>
+      <div class="slideshow-container">
+
+        <div class="slide fade">
+          <img src="images/slide_desk1.jpg" alt="Desk 1"/>
+          <div class="slide-caption">Improve your workspace</div>
+        </div>
+    
+        <div class="slide fade">
+          <img src="images/slide_desk2.jpg" alt="Desk 2"/>
+          <div class="slide-caption">Lots of health benefits</div>
+        </div>
+
+        <button
+          type="button"
+          class="prev"
+          aria-label="Previous slide"
+          onclick="plusSlides(-1)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button
+          type="button"
+          class="next"
+          aria-label="Next slide"
+          onclick="plusSlides(1)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <a href="rising-desks.html" class="slide-cta">Shop Now</a>
+      </div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </section>
+
+    <section class="info-boxes">
+      <h3> Beautiful Desk designs helping you achieve your health goals</h3>
+      <div class="box">
+        <img src="images/main_standing_desk.jpg" alt="Classic Design"/>
+        <div class="overlay">
+          <p>Classic Design</p>
+          <p>Providing comfort and better posture.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/main_standingdesk_2.jpg" alt="Health Benefits"/>
+        <div class="overlay">
+          <p>Active lifestyle</p>
+          <p>Improve your mood with better health.</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/rising_desk_m1.jpg" alt="Modern Look"/>
+        <div class="overlay">
+          <p>Stylish & Modern</p>
+          <p>Style with a purpose to provide better circulation.</p>
+        </div>
+      </div>
+    </section>
+
+    <div id="helloModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Welcome to Standing Desks</p>
+        <p>A work space to boost your health</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="footer-logo-img"/>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com/YourPage" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/YourHandle" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/in/YourProfile" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <p class="footer-copy">© Standing Desks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>

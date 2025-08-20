@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Health Benefits</title>
+  <link rel="icon" href="images/logo.png"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="logo-img"/>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="rising-desks.html">Rising Desks</a>
+            <ul class="dropdown-content">
+              <li><a href="rising-desks.html#laptop-desks">Laptop Desks</a></li>
+              <li><a href="rising-desks.html#floor-standing">Floor Standing</a></li>
+            </ul>
+          </li>
+          <li><a href="health-benefits.html">Health Benefits</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="basket.html">Basket <span id="cart-count" class="cart-badge">0</span> </a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" placeholder="Search products..." id="search-input"/>
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="health-info">
+      <h1>The Health Benefits of Standing Desks</h1>
+      
+      <table class="benefits-table">
+        <thead>
+          <tr>
+            <th>Benefit</th>
+            <th>Description</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Increased Focus</td>
+            <td>Standing boosts circulation.</td>
+            <td><a href="https://doi.org/10.3233/WOR-230624" target="_blank">Link</a></td>
+          </tr>
+          <tr>
+            <td>Better Posture</td>
+            <td>Engages your core and spine.</td>
+            <td><a href="https://doi.org/10.1186/s12966-024-01652-0" target="_blank">Link</a></td>
+          </tr>
+          <tr>
+            <td>Burns Calories</td>
+            <td>Light standing burns more than sitting.</td>
+            <td><a href="https://doi.org/10.1093/joccuh/uiae067" target="_blank">Link</a></td>
+          </tr>
+          <tr>
+            <td>Elevates Mood</td>
+            <td>Reduces sedentary stress.</td>
+            <td><a href="https://doi.org/10.1177/15586898231196287" target="_blank">Link</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="video-container">
+        <h2>Watch: Why Standing Desks Matter</h2>
+        <iframe 
+          src="https://www.youtube.com/embed/qVsq-r1iPUs"
+          title="Standing Desk Benefits"
+          allow="encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="audio-container">
+        <h3>Listen: Expert Podcast</h3>
+        <a href="https://music.youtube.com/watch?v=kC6RBkdoi50" target="_blank">
+          Open in YouTube Music
+        </a>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="footer-logo-img"/>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com/YourPage" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/YourHandle" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/in/YourProfile" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <p class="footer-copy">© Standing Desks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

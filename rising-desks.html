@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Standing Desks</title>
+  <link rel="icon" href="images/logo.png"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="logo-img"/>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="rising-desks.html">Rising Desks</a>
+            <ul class="dropdown-content">
+              <li><a href="rising-desks.html#laptop-desks">Laptop Desks</a></li>
+              <li><a href="rising-desks.html#floor-standing">Floor Standing</a></li>
+            </ul>
+          </li>
+          <li><a href="health-benefits.html">Health Benefits</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="basket.html">Basket <span id="cart-count" class="cart-badge">0</span> </a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <input type="text" placeholder="Search products..." id="search-input"/>
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="laptop-desks" class="section-desks">
+      <h1>Laptop Rising Desks</h1>
+      <div class="desk-examples">
+        <div class="floating-box" id="modelA" data-id="modelA">
+          <img src="images/laptop_stand_m1.jpg" alt="Model A"/>
+          <p><strong>Model A</strong></p>
+          <p>Adjustable, for better comfort</p>
+          <p class="price">€20.65</p>
+          <button class="add-to-basket">Add to Basket</button>
+        </div>
+
+        <div class="floating-box" id="modelB" data-id="modelB">
+          <img src="images/laptop_stand_m2.jpg" alt="Model B"/>
+          <p><strong>Model B</strong></p>
+          <p>Classic design</p>
+          <p class="price">€45.50</p>
+          <button class="add-to-basket">Add to Basket</button>
+        </div>
+
+        <div class="floating-box" id="modelC" data-id="modelC">
+          <img src="images/laptop_stand_m3.jpg" alt="Model C"/>
+          <p><strong>Model C</strong></p>
+          <p>Minimalistic with style</p>
+          <p class="price">€15.99</p>
+          <button class="add-to-basket">Add to Basket</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="floor-standing" class="section-desks">
+      <h1>Floor Standing Desks</h1>
+      <div class="desk-examples">
+        <div class="floating-box" id="modelD" data-id="modelD">
+          <img src="images/main_standing_desk.jpg" alt="Model D"/>
+          <p><strong>Model D</strong></p>
+          <p>Easy height adjustment</p>
+          <p class="price">€150</p>
+          <button class="add-to-basket">Add to Basket</button>
+        </div>
+
+        <div class="floating-box" id="modelE" data-id="modelE">
+          <img src="images/main_standingdesk_2.jpg" alt="Model E"/>
+          <p><strong>Model E</strong></p>
+          <p>Solid wood top</p>
+          <p class="price">€250</p>
+          <button class="add-to-basket">Add to Basket</button>
+        </div>
+
+        <div class="floating-box" id="modelF" data-id="modelF">
+          <img src="images/rising_desk_m1.jpg" alt="Model F"/>
+          <p><strong>Model F</strong></p>
+          <p>Mobile on wheels.</p>
+          <p class="price">€175</p>
+          <button class="add-to-basket">Add to Basket</button>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Standing Desks Logo" class="footer-logo-img"/>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com/YourPage" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/YourHandle" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/in/YourProfile" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <p class="footer-copy">© Standing Desks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
